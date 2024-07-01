@@ -25,15 +25,15 @@ export default defineConfig({
           {text: '经典语录', link: '/info/echoes.md'},
         ],
       },
-      {
-        text: '小说章节',
-        items: [
-          { text: '第1章 后妈如妹，妹似后妈', link: '/doc/1' },
-          { text: '500-1000章', link: '/api-examples' },
-          {text: '1000-1500章', link: '/api-examples'},
-          {text: '1500-2000章', link: '/api-examples'},
-        ],
-      },
+      // {
+      //   text: '小说章节',
+      //   items: [
+      //     { text: '第1章 后妈如妹，妹似后妈', link: '/doc/1' },
+      //     { text: '500-1000章', link: '/api-examples' },
+      //     {text: '1000-1500章', link: '/api-examples'},
+      //     {text: '1500-2000章', link: '/api-examples'},
+      //   ],
+      // },
 
     ],
 
