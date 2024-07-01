@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: "/wtmmlsw-doc/",
   head:[ 
-  ["link", { rel: "icon", href: "/wtmmlsw-doc/favicon.ico" }]],
+  ["link", { rel: "icon", href: "img\favicon.ico" }]],
   title: "《问题妹妹恋上我》",
   description: "小说《问题妹妹恋上我》的文档站",
   themeConfig: {
