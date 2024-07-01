@@ -2,12 +2,14 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/wtmmlsw-doc/",
+  // base: "/wtmmlsw-doc/",
+  head:[ 
+  ["link", { rel: "icon", href: "/wtmmlsw/favicon.ico" }]],
   title: "《问题妹妹恋上我》",
   description: "小说《问题妹妹恋上我》的文档站",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "img/banner3.png",
+    logo: "img/banner.png",
     nav: [
       { text: '主页', link: '/' },
       { text: '项目地址', link: '/markdown-examples' },

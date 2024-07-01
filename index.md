@@ -7,7 +7,7 @@ hero:
   text: "文档站"
   tagline: 十年相伴，即将完结...
   image:
-      src: img/banner3.png
+      src: /img/banner.png
       alt: 背景图
   actions:
     - theme: brand
