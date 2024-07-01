@@ -7,7 +7,7 @@ hero:
   text: "文档站"
   tagline: 十年相伴，即将完结...
   image:
-      src: /img/banner.png
+      src: https://hexo-blog-anzhiyu-zhengjiao.oss-cn-hongkong.aliyuncs.com/img/202407020449859.png
       alt: 背景图
   actions:
     - theme: brand

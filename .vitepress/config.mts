@@ -4,12 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: "/wtmmlsw-doc/",
   head:[ 
-  ["link", { rel: "icon", href: "/wtmmlsw/favicon.ico" }]],
+  ["link", { rel: "icon", href: "/wtmmlsw-doc/favicon.ico" }]],
   title: "《问题妹妹恋上我》",
   description: "小说《问题妹妹恋上我》的文档站",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "img/banner.png",
+    logo: "https://hexo-blog-anzhiyu-zhengjiao.oss-cn-hongkong.aliyuncs.com/img/202407020449859.png",
     nav: [
       { text: '主页', link: '/' },
       { text: '项目地址', link: '/markdown-examples' },
