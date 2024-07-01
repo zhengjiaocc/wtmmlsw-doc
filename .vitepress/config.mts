@@ -3,12 +3,12 @@ import { set_sidebar } from "./utils/auto_sidebar.mjs";	// 改成自己的路径
 // https://vitepress.dev/reference/site-config
 export default defineConfig({ 
   base: "/wtmmlsw-doc/",
-  head:[["link", { rel: "icon", href: "/wtmmlsw-doc/favicon.ico" }]],
+  head: [["link", { rel: "icon", href: "logo.svg" }]],
   title: "《问题妹妹恋上我》",
   description: "小说《问题妹妹恋上我》的文档站",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "banner.png",
+    logo: "/banner.png",
     nav: [
       { text: '主页', link: '/' },
       { text: '项目地址', link: '/markdown-examples' },
