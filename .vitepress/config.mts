@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // base: "/wtmmlsw-doc/",
+  base: "/",
   head:[ 
   ["link", { rel: "icon", href: "/wtmmlsw/favicon.ico" }]],
   title: "《问题妹妹恋上我》",
